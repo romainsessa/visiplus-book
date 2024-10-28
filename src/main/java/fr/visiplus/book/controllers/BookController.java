@@ -28,7 +28,7 @@ public class BookController {
 			final ReservationService reservationService) {
 		this.bookService = bookService;
 		this.reservationService = reservationService;
-	}	
+	}
 	
 	@GetMapping
 	public List<BookDTO> getAllBooks() {
